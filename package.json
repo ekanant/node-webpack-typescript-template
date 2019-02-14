@@ -2,5 +2,19 @@
   "name": "node-webpack-typescript-template",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --config webpack.config.dev.js --mode development && node dist/index.bundle.js",
+    "build": "webpack",
+    "start": "node dist/index.bundle.js"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^1.0.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
 }
