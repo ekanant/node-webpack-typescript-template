@@ -9,11 +9,11 @@
     "start": "node dist/index.bundle.js"
   },
   "dependencies": {
-    "clean-webpack-plugin": "^1.0.1",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^1.0.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   }
